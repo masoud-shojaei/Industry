@@ -1,0 +1,59 @@
+
+/*------------------------------------*\
+  #MAIN-RESPONSIVE homepart-4
+\*------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+
+
+
+
+/*  Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  /* homepart-4 banner */
+  .homepart-4 {
+    .inner {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .banner-cta {
+      margin-top: 30px;
+    }
+
+    .banner-text {
+      text-align: center
+    }
+  }
+
+}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and down) */
+@media only screen and (min-width: 1200px) {}

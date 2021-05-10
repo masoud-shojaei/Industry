@@ -1,0 +1,362 @@
+
+/*------------------------------------*\
+  #FOOTER-STYLES  
+\*------------------------------------*/
+
+//  footer-styles
+.footer {
+  .company-info {
+    .inner {
+      padding: 20px 10px;
+
+      .item {
+        margin: 0 5px ;
+
+        i {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  .footer-content {
+    padding-top: 40px;
+
+    .item {
+      width: 25%;
+
+      .title {
+        padding-bottom: 20px
+      }
+
+      &:not(:first-child) {
+        margin-left: 30px ;
+      }
+    }
+
+    .aboutUs-content {
+      padding-bottom: 20px;
+
+      .socialMedia {
+        border-top: 1px solid $gray-1;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-around;
+
+        span {
+          padding: 10px;
+          border: 1px solid $gray-1;
+          border-radius: 50%;
+          margin: 0;
+          transition: all .3s ease-in;
+
+          &:hover {
+            background-color: $main-brand-color;
+            border: 1px solid $main-brand-color;
+            cursor: pointer;
+          }
+        }
+
+        i {
+          width: 15px;
+          height: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+
+    .usefullLinks {
+      .link {
+        margin-top: 15px;
+
+        i {
+          margin-right: 15px
+        }
+
+        &:hover i {
+          transition: all .3s ease;
+          color: $main-brand-color;
+        }
+
+        &:hover a {
+          transition: all .3s ease;
+          color: $white;
+        }
+      }
+    }
+
+    .recentPost {
+      .post {
+        position: relative;
+        padding-top: 20px;
+
+        .post-title {
+          padding-bottom: 10px;
+
+          &:hover {
+            transition: all .3s ease-in;
+            color: $main-brand-color;
+            cursor: pointer;
+          }
+        }
+
+        i {
+          margin-right: 20px
+        }
+
+        &:not(:last-child) {
+          padding-bottom: 20px;
+        }
+
+        &:not(:last-child)::before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background-color: $gray-1;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
+
+    .newsLetter {
+      padding: 30px 20px ;
+      border-radius: 5px;
+
+      .newsLetter-box {
+        padding: 20px;
+      }
+
+      .subscribe {
+        margin-top: 25px;
+        text-align: center;
+
+        input {
+          width: 100%;
+          padding: 10px;
+          border-radius: 5px;
+          border: none;
+          margin-bottom: 10px;
+          background-color: #2f3234;
+
+          &::placeholder {
+            text-align: center;
+            position: relative;
+          }
+        }
+
+        button {
+          width: 100%;
+          background-color: $main-brand-color;
+          border: 1px solid $main-brand-color;
+
+          &:hover {
+            transition: all .3s ease-in;
+            border: 1px solid $white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .copyRights {
+    background-color: #1b1b1b;
+    padding: 25px;
+    margin-top: 70px;
+
+    .company-email {
+      &:hover {
+        transition: all .3s ease-in ;
+        color: $main-brand-color;
+        cursor: pointer;
+      }
+    }
+
+    .company-name {
+      &:hover {
+        transition: all .3s ease-in ;
+        color: $gray-1;
+      }
+    }
+  }
+}
+
+
+
+@import "./footer-responsive";
+
+
+// .footer .company-info .inner {
+//   padding: 20px 10px;
+// }
+
+// .footer .company-info .inner .item {
+//   margin: 0 5px ;
+// }
+
+// .footer .company-info .inner .item i { 
+//   margin-right: 15px;
+// }
+
+// .footer .footer-content {
+//   padding-top: 40px;
+// }
+
+// .footer .footer-content .item:not(:first-child) {
+//   margin-left: 30px ;
+// }
+
+// .footer .footer-content .item {
+//   width: 25%;
+// }
+
+// .footer .footer-content .item .title {
+//   padding-bottom: 20px
+// }
+
+// .footer .footer-content .aboutUs-content {
+//   padding-bottom: 20px;
+// }
+
+// .footer-content .aboutUs .socialMedia {
+//   border-top: 1px solid $gray-1;
+//   padding-top: 20px;
+//   display: flex;
+//   justify-content: space-around;
+// }
+
+// .footer-content .aboutUs .socialMedia span {
+//   padding: 10px;
+//   border: 1px solid $gray-1;
+//   border-radius: 50%;
+//   margin: 0;
+//   transition: all .3s ease-in;
+// }
+
+// .footer-content .aboutUs .socialMedia span:hover {
+//   background-color: $main-brand-color;
+//   border: 1px solid $main-brand-color;
+//   cursor: pointer;
+// }
+
+// .footer-content .aboutUs .socialMedia i {
+//   width: 15px;
+//   height: 15px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .footer .footer-content .usefullLinks .link {
+//   margin-top: 15px;
+// }
+
+// .footer .footer-content .usefullLinks .link:hover i {
+//   transition: all .3s ease;
+//   color: $main-brand-color;
+// }
+
+// .footer .footer-content .usefullLinks .link:hover a {
+//   transition: all .3s ease;
+//   color: $white;
+// }
+
+// .footer .footer-content .usefullLinks .link i {
+//   margin-right: 15px
+// }
+
+// .footer .footer-content .recentPost .post{
+//   position: relative;
+//   padding-top: 20px;
+// }
+
+// .footer .footer-content .recentPost .post:not(:last-child){
+//   padding-bottom: 20px;
+// }
+
+// .footer .footer-content .recentPost .post:not(:last-child)::before {
+//   content: '';
+//   position: absolute;
+//   width: 100%;
+//   height: 1px;
+//   background-color: $gray-1;
+//   bottom: 0;
+//   left: 0;
+// } 
+
+
+// .footer .footer-content .recentPost .post i {
+//   margin-right: 20px
+// }
+
+// .footer .footer-content .recentPost .post .post-title {
+//   padding-bottom: 10px;
+// }
+
+// .footer .footer-content .recentPost .post .post-title:hover {
+//   transition: all .3s ease-in;
+//   color: $main-brand-color;
+//   cursor: pointer;
+// } 
+
+
+// .footer .footer-content .newsLetter {
+//   padding: 30px 20px ;
+//   border-radius: 5px;
+// }
+
+// .footer .footer-content .newsLetter  .newsLetter-box{
+//   padding: 20px;
+// }
+
+// .footer .footer-content .newsLetter .subscribe {
+//   margin-top: 25px;
+//   text-align: center
+// }
+
+// .footer .footer-content .newsLetter .subscribe input {
+//   width: 100%;
+//   padding: 10px;
+//   border-radius: 5px;
+//   border: none;
+//   margin-bottom: 10px;
+//   background-color: #2f3234;
+// }
+
+// .footer .footer-content .newsLetter .subscribe input::placeholder {
+//   text-align: center;
+//   position: relative;
+// }
+
+// .footer .footer-content .newsLetter .subscribe button {
+//   width: 100%;
+//   background-color: $main-brand-color;
+//   border: 1px solid $main-brand-color;
+// }
+
+// .footer .footer-content .newsLetter .subscribe button:hover {
+//   transition: all .3s ease-in;
+//   border: 1px solid $white;
+//   cursor: pointer;
+// }
+
+// .footer .copyRights {
+//   background-color: #1b1b1b;
+//   padding: 25px;
+//   margin-top: 70px
+// }
+
+// .footer .copyRights .company-email:hover {
+//   transition: all .3s ease-in ;
+//   color: $main-brand-color;
+//   cursor: pointer;
+// }
+
+// .footer .copyRights .company-name:hover {
+//   transition: all .3s ease-in ;
+//   color: $gray-1;
+// }

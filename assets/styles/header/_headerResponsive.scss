@@ -1,0 +1,175 @@
+
+/*------------------------------------*\
+  #HEADER-RESPONSIVE
+\*------------------------------------*/
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+
+  /* utilities */
+  .btn {
+    padding: 14px 24px;
+    border-radius: 5px;
+    font-size: 16px; 
+  }
+
+  /* company introduction (header top section) style */
+  .socialMedia {
+    span {
+      &:not(:first-child) {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  .contactData {
+    display: none;
+  }
+
+  /* company certification (header middle section) styles */
+  .companyCertificate {
+    display: none;
+  }
+
+  .navbar-items {
+    .link {
+      font-size: 14px ;
+    }
+
+    .item {
+      padding: 25px 15px;
+
+      &:not(:first-child) {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .navbar {
+    ul {
+      padding: 0 ;
+    }
+  }
+
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* company introduction (header top section) style */
+  .socialMedia {
+    margin-top: 10px;
+  }
+
+  .contactData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  /* company certification (header middle section) styles */
+  .companyCertificate {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .socialMedia {
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  .companyIntroduction {
+    ul {
+      flex-wrap: wrap;
+    }
+  }
+
+  .contactData {
+    margin-right: 0;
+  }
+
+  .contactData {
+    > {
+      span {
+        &:not(:first-child) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  .companyIntroduction {
+    ul {
+      li {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+
+        span {
+          width: 100%;
+          margin: 3px 0;
+        }
+      }
+    }
+  }
+
+  /* company certification (header middle section) styles */
+  .companyCertification {
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li {
+        width: 100%;
+        text-align: center;
+
+        > {
+          div {
+            width: 100%;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+
+  .companyCertificate {
+    > {
+      div {
+        margin: 10px 0 ;
+      }
+    }
+  }
+}
+
+
+
+
+
+// Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {}

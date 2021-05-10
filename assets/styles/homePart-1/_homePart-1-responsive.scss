@@ -1,0 +1,158 @@
+
+/*------------------------------------*\
+  #MAIN-RESPONSIVE homepart-1
+\*------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* homepart 1 */
+  .wellcom-message {
+    .wellcom-message-title {
+      width: 100%;
+      text-align: center;
+      padding-right: 0; 
+    }
+
+    .wellcom-message-content {
+      display: none;
+    }
+  }
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* homepart-1 welcom message */
+  .wellcom-message {
+    .inner {
+      flex-wrap: wrap;
+    }
+
+    .wellcom-message-title {
+      width: 100%;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    .wellcom-message-content {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
+
+
+
+
+
+/*  Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* homepart-1 welcom message */
+  .wellcom-message {
+    .inner {
+      flex-wrap: unset;
+    }
+
+    .wellcom-message-title {
+      width: 40%;
+      padding-right: 40px;
+      text-align: right;
+    }
+
+    .wellcom-message-content {
+      width: 60%;
+      margin-top: 20px;
+    }
+  }
+}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* homepart-1 welcom message */
+  .wellcom-message {
+    .wellcom-message-title {
+      width: 30%;
+    }
+
+    .wellcom-message-content {
+      width: 70%;
+    }
+  }
+}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+
+  /* homepart-1 services */
+  .homepart-1 {
+    .services {
+      .inner {
+        flex-wrap: wrap;
+      }
+
+      .services-card {
+        width: 100%;
+
+        &:nth-child(2) {
+          margin: 0 ;
+        }
+
+        &:not(:first-child) {
+          margin-top: 50px;
+        }
+      }
+    }
+
+    /* homepart-1 article */
+    .articles {
+      .inner {
+        flex-wrap: wrap;
+      }
+
+      .articles-card {
+        width: 100%;
+
+        &:nth-child(2) {
+          margin: 0;
+        }
+
+        &:not(:first-child) {
+          margin-top: 30px;
+        }
+      }
+
+      .articles-card-content {
+        margin-left:20px ;
+      }
+    }
+  }
+}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and down) */
+@media only screen and (min-width: 1200px) {
+  /* homepart-1 welcom message */
+  .wellcom-message {
+    .wellcom-message-title {
+      width: 25%;
+    }
+
+    .wellcom-message-content {
+      width: 75%;
+    }
+  }
+}

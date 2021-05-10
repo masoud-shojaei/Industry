@@ -1,0 +1,104 @@
+
+/*------------------------------------*\
+  #MAIN-RESPONSIVE homepart 3
+\*------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* homepart 3 customerWords */
+  .homepart-3 {
+    .comment {
+      padding: 50px 10px 20px;
+
+      &::after {
+        left: 36px;
+      }
+    }
+
+    .customer-words-title {
+      .customer-words-btn-custom {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* homepart-3 customerWords */
+  .homepart-3 {
+    .customer-words-title {
+      .customer-words-btn-custom {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+
+
+
+
+/*  Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  /* homepart-3 customerWords */
+  .homepart-3 {
+    .customer-words-title {
+      .customer-words-btn-custom {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  /* homepart-3 customerWords */
+  .homepart-3 {
+    .comment {
+      &:not(:first-child) {
+        margin-left: 0;
+        margin-top: 80px;
+      }
+    }
+
+    .inner {
+      padding: 0 15px;
+    }
+
+    .customer-word-comments {
+      flex-wrap: wrap;
+    }
+
+    .customer-words-title {
+      flex-wrap: wrap;
+
+      span {
+        margin-right: 50px;
+      }
+    }
+  }
+}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and down) */
+@media only screen and (min-width: 1200px) {}

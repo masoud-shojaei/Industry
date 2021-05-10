@@ -1,0 +1,111 @@
+
+/*------------------------------------*\
+  #SLIDER-STYLES
+\*------------------------------------*/
+
+// slider styles
+.slideShow {
+  overflow: hidden;
+
+  .slideShow-slide {
+    width: 100%;
+    height: 600px;
+    background:  no-repeat center / cover;
+
+    .inner {
+      height: 100%;
+    }
+
+    .item {
+      .ourSoution {
+        border: 1px solid $main-brand-color;
+
+        &:hover {
+          transition: all .3s ease-in;
+          background-color: transparent;
+          border: 1px solid $white;
+        }
+      }
+
+      &:not(:first-child) {
+        margin-top: 40px;
+      }
+    }
+
+    .readMore {
+      &:hover {
+        transition: all .3s ease-in;
+        background-color: rgb(249, 253, 0);
+      }
+    }
+
+    .title {
+      line-height: 60px;
+      font : {
+        size: 50px;
+        weight: bold
+      }
+    }
+
+    .subtitle {
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    .slideShow-slide-content {
+      button {
+        &:not(:first-child) {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+// .slideShow-slide {
+//   width: 100%;
+//   height: 600px;
+//   background:  no-repeat center / cover;
+// }
+
+// .slideShow-slide .inner {
+//   height: 100%;
+// }
+
+// .slideShow-slide .item:not(:first-child) {
+//  margin-top: 40px;
+// }
+
+// .slideShow-slide .item .ourSoution {
+//   border: 1px solid $main-brand-color;
+// }
+
+// .slideShow-slide .item .ourSoution:hover {
+//   transition: all .3s ease-in;
+//   background-color: transparent;
+//   border: 1px solid $white;
+// }
+
+// .slideShow-slide .item .readMore:hover {
+//   transition: all .3s ease-in;
+//   background-color: rgb(249, 253, 0);
+// }
+
+// .slideShow-slide .title {
+//   line-height: 60px;
+//   font : {
+//     size: 50px;
+//     weight: bold
+//   }
+// }
+
+// .slideShow-slide .subtitle {
+//   font-size: 18px;
+//   line-height: 30px;
+// }
+
+// .slideShow-slide-content button:not(:first-child) {
+//   margin-left: 20px;
+// }
+
+@import "./_sliderResponsive.scss" ;

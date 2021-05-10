@@ -1,0 +1,56 @@
+
+/*------------------------------------*\
+  #MAIN-STYLES  homepart-5
+\*------------------------------------*/
+
+// partners brand slider
+.homepart-5 {
+  .partners-brand {
+    padding: 80px 0 ;
+  }
+
+  .partners-brand-title {
+    text-align: center;
+  }
+
+  .partners-brand-slider {
+    padding-top: 50px;
+
+    .item {
+      border: 1px solid $gray-1 ;
+      border-radius: 5px;
+      margin: 0 10px ;
+      text-align: center;
+
+      &:hover {
+        transition: all .3s ease-in;
+        border: 1px solid $main-brand-color; 
+      }
+    }
+  }
+}
+// .partners-brand {
+//   padding: 80px 0 ;
+//  }
+
+//  .partners-brand-title {
+//    text-align: center;
+//  }
+
+//  .partners-brand-slider {
+//    padding-top: 50px
+//  }
+ 
+//  .partners-brand-slider .item {
+//   border: 1px solid $gray-1 ;
+//   border-radius: 5px;
+//   margin: 0 10px ;
+//   text-align: center
+// }
+
+// .partners-brand-slider .item:hover {
+//   transition: all .3s ease-in;
+//   border: 1px solid $main-brand-color; 
+// }
+
+@import "./_homePart-5-responsive.scss";

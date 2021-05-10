@@ -1,0 +1,189 @@
+
+/*------------------------------------*\
+  #FOOTER-RESPONSIVE
+\*------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer {
+    .footer-content {
+
+      .inner {
+        flex-wrap: wrap;
+      }
+
+      .item {
+        width: 100%;
+        padding: 50px;
+
+        &:not(:first-child) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  // .footer .footer-content .inner {
+  //   flex-wrap: wrap;
+  // }
+
+  // .footer .footer-content .item {
+  //   width: 100%;
+  //   padding: 50px;
+  // }
+
+  // .footer .footer-content .item:not(:first-child) {
+  //   margin-left: 0px ;
+  // }
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .footer {
+    .footer-content {
+
+      .inner {
+        flex-wrap: wrap;
+      }
+
+      .item {
+        width: 45%;
+        padding:60px 20px ;
+
+        &:not(:first-child) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+
+  // .footer .footer-content .inner {
+  //   flex-wrap: wrap;
+  // }
+
+  // .footer .footer-content .item {
+  //   width: 45%;
+  //   padding:60px 20px ;
+  // }
+
+  // .footer .footer-content .item:not(:first-child) {
+  //   margin-left: 0px ;
+  // }
+
+}
+
+
+
+
+
+/*  Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+
+  .footer {
+    .company-info {
+      .inner {
+        flex-wrap: wrap;
+        margin: 0 20px;
+
+        .item {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          &:not(:first-child) {
+            padding-top: 30px;
+          }
+        }
+      }
+    }
+
+    .copyRights {
+      text-align: center;
+
+      .inner {
+        flex-wrap: wrap;
+      }
+
+      .item {
+        width: 100%;
+
+        &:not(:first-child) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  // footer .company-info .inner {
+  //   flex-wrap: wrap;
+  //   margin: 0 20px;
+  // }
+
+  // footer .company-info .inner .item {
+  //   width: 100%;
+  //   display: flex;
+  //   justify-content: center;
+  
+  // }
+
+  // footer .company-info .inner .item:not(:first-child) {
+  //   padding-top: 30px;
+  // }
+
+  // .footer .copyRights {
+  //   text-align: center;
+  // }
+
+  // .footer .copyRights .inner {
+  //   flex-wrap: wrap;
+  // }
+
+  // .footer .copyRights .item {
+  //   width: 100%;
+  // }
+
+  // .footer .copyRights .item:not(:first-child) {
+  //   margin-top: 20px;
+  // }
+
+}
+
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .footer {
+    .footer-content {
+      .item {
+        width: 25%;
+        padding:30px 20px ;
+      }
+    }
+  }
+
+  // .footer .footer-content .item {
+  //   width: 25%;
+  //   padding:30px 20px ;
+  // }
+
+}
+
+
+
+
+/*  Large devices (laptops/desktops, 992px and down) */
+@media only screen and (min-width: 1200px) {}
