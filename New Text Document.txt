@@ -1,3 +1,0 @@
-sakhtar haye sass va comment ha ham dar responsive ham dar style ha fix  beshe
-footer responsiv va ui fix beshe
-dar sorat emkan ye plugin jquery ezafe konam be porozhe 
